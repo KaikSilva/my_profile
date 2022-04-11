@@ -1,0 +1,30 @@
+{
+  "name": "vendor_name/myProfile",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Kaik Silva",
+      "email": "kaikrochaa0@gamil.com",
+      "role": "Devloper"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "dev-master",
+    "coffeecode/router": "dev-master",
+    "league/plates": "v4.0.0-alpha",
+    "jenssegers/blade": "dev-master"
+  }
+}
