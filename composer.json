@@ -22,8 +22,8 @@
     ]
   },
   "require": {
-    "coffeecode/datalayer": "dev-master",
-    "coffeecode/router": "dev-master",
+    "coffeecode/datalayer": "1.1.5",
+    "coffeecode/router": "1.0.3",
     "league/plates": "v4.0.0-alpha",
     "jenssegers/blade": "dev-master"
   }
